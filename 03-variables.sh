@@ -20,3 +20,10 @@ echo $NAME is promoted to next class
 echo $NAME is B Section
 
 # In shell scripting you dont have data types by default. Everything is a string.
+
+## Most of the times you might need to define variables by executing some commands and store the output inside a variable.
+
+## It is possible with command substitution, Syntax is VAR=$(command)
+DATE=$(date +%F)
+echo "Today date is $DATE"
+

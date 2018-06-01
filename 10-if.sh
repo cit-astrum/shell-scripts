@@ -23,8 +23,11 @@
 
 ### Expressions.
     # 1. String Comparisions
+        # = , !=
     # 2. Numerical COmp
         # Operators : -eq, -ne, -gt, -ge, -lt, -le
         # [ 2 -eq 2 ] => True if both are equal
     # 3. File Tests.
+        # <go to man page of bash> man bash, & search for -eq 
+        # [ -d /dir ] -> True if /dir exists and it is a directory 
 
